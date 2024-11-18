@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win Tech Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        .header img {
+            height: 50px;
+            vertical-align: middle;
+        }
+        .header h1 {
+            display: inline;
+            margin-left: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #333;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="path_to_logo_image" alt="WTS Logo">
+        <h1>Win Tech Solutions</h1>
+    </div>
+    <div class="content">
+        <h2>About Us</h2>
+        <p>Welcome to Win Tech Solutions. We specialize in IT consulting services, focusing on IT infrastructure, on-premises migrations from VMWare to OpenShift, Proxmox, OpenStack, XCP-NG, and cloud migrations to Azure, AWS, and Google Cloud. Our expertise extends to end-to-end architecture and execution of data center relocations.</p>
+        <h2>Our Services</h2>
+        <ul>
+            <li>IT Infrastructure</li>
+            <li>On-Premises Migrations</li>
+            <li>Cloud Migrations</li>
+            <li>Data Center Relocations</li>
+        </ul>
+        <h2>Contact Us</h2>
+        <p>For more information, please contact us at <a href="mailto:info@wintechsolutions.com">info@wintechsolutions.com</a>.</p>
+    </div>
+    <div class="footer">
+        &copy; 2024 Win Tech Solutions. All rights reserved.
+    </div>
+</body>
+</html>
